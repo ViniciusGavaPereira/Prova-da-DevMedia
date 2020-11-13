@@ -1,0 +1,148 @@
+body{
+    padding:0px;
+    margin: 0px;
+ 
+}
+
+section{
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;  
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+
+
+
+.cabeçalho{
+    
+    background-color: #EBF0FF;
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+
+}
+
+.cabeçalho h1{
+    padding:0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 350px;
+
+}
+
+.cabeçalho ul, li{
+    padding:0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 25px;
+
+}
+
+.cabeçalho input{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.cabeçalho button{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+
+}
+
+.cabeçalho h2{
+    display: none
+
+}
+
+
+.noticia{
+    background-color: gray;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 250px;
+    height: 400px;
+    
+}
+
+.noticia p {
+    display: inline-block;
+    text-align: justify;    
+    margin: 15px 20px;
+
+}
+
+.noticia button{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    height: 8% ;
+    width: 50%;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+
+}
+
+footer{
+    background-color: #EBF0FF;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+
+footer h1{
+    margin:0px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+@media(max-width: 1150px){
+ 
+
+  
+
+    .cabeçalho h1{
+        display: none;
+         
+    }
+    
+    .cabeçalho h2{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .cabeçalho ul, li, input, button{
+        display:none;
+        text-align: center;
+
+    }
+    
+}
+
+
+
+
