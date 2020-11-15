@@ -1,12 +1,14 @@
 body{
     padding:0px;
     margin: 0px;
+    font-family: Montserrat, sans-serif;
+    color: #525252
  
 }
 
 section{
-    background-color: white;
-    height: 1000px;
+    background-color: #002E7B;
+    height: 100%;
     width: 100%;
     display: inline-block;
     text-align: center;  
@@ -20,7 +22,7 @@ section{
 
 .cabeçalho{
     
-    background-color: #EBF0FF;
+    background-color: #fff;
     display: inline-block;
     height: 80px;
     width: 100%;
@@ -31,6 +33,7 @@ section{
 }
 
 .cabeçalho h1{
+    color: black;
     padding:0px;
     margin: 0px;
     display: inline-block;
@@ -51,18 +54,29 @@ section{
 
 }
 
+.cabeçalho li :hover{
+    color: black
+
+}
+
 .cabeçalho input{
     display: inline-block;
     vertical-align: top;
     margin-top: 15px;
     margin-left: 18px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #D9E7EE;
 }
 
 .cabeçalho button{
+    width: 100px;
+    height: 22px;
     display: inline-block;
     vertical-align: top;
     margin-top: 15px;
-
+    background-color: #ABC9D9;
+    border: none;
+    border-radius: 0px 50px 50px 0px; 
 }
 
 .cabeçalho h2{
@@ -72,7 +86,7 @@ section{
 
 
 .noticia{
-    background-color: gray;
+    background-color: #EBF5FF;
     display: inline-block;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -80,30 +94,44 @@ section{
     margin-left: 50px;
     width: 250px;
     height: 400px;
-    
+    border-radius: 5px;
+
+
 }
 
+
+
+.noticia h1{
+    color: #00457A;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
 .noticia p {
     display: inline-block;
-    text-align: justify;    
-    margin: 15px 20px;
-
+    text-align: left;    
+    color: black;
+    margin-left: 15px;
+    margin-right: 10px
 }
 
 .noticia button{
+    color: #00457A;
     display: inline-block;
     vertical-align: top;
     margin-top: 15px;
     height: 8% ;
     width: 50%;
-    border-radius: 15px;
+    border-radius: 5px;
     border: none;
-    background-color: red;
-
+    background-color: #ABC9D9;
 }
 
+
+
 footer{
-    background-color: #EBF0FF;
+    background-color: #fff;
     height: 70px;
     width: 100%;
     position: fixed;
@@ -115,14 +143,12 @@ footer h1{
     margin:0px;
     padding-top: 15px;
     text-align: center;
+    color: black;
 }
 
 
 
 @media(max-width: 1150px){
- 
-
-  
 
     .cabeçalho h1{
         display: none;
@@ -141,6 +167,14 @@ footer h1{
 
     }
     
+}
+
+@media(max-width: 510px){
+
+    footer h1{
+        font-size: 28px
+    }
+
 }
 
 
